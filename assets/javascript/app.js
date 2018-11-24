@@ -1,12 +1,10 @@
 $(document).ready(function() {
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyA7WgGhc4fAx_TOoUh4He6KIyQ3IE30apA",
     authDomain: "my-own-kind-of-music.firebaseapp.com",
     databaseURL: "https://my-own-kind-of-music.firebaseio.com",
     projectId: "my-own-kind-of-music",
     storageBucket: "my-own-kind-of-music.appspot.com",
-    messagingSenderId: "882336588397"
   };
   firebase.initializeApp(config);
 
