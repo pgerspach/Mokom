@@ -1,0 +1,133 @@
+body{
+    font-family: 'Satisfy', cursive;
+}
+
+.pageTop{
+    display:flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items:center;
+    width:100%;
+    height:70px;
+    border-bottom:2px solid black;
+    background-color:rgb(208, 245, 0);
+    padding-left:38px;
+    padding-right:38px;
+    justify-content: space-between;
+
+}
+.websiteTitle{
+    display:flex;
+    flex-direction: row;
+    color:black;
+    font-size: 32px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    margin:auto;
+    height:auto;
+}
+.inputPrompt{
+    display: flex;
+    height:auto;
+    width:auto;
+    font-size:80px;
+    margin-top: 60px;
+}
+.zipInput{
+    display: flex;
+    height: 40px;
+    width: 230px;
+    border-radius:20px;
+    border: 1px solid black;
+    font-size: 23px;
+    text-align: center;
+    margin-top:20px;
+}
+.artistInput{
+    display: flex;
+    height: 40px;
+    width: 230px;
+    border-radius:20px;
+    border: 1px solid black;
+    font-size: 23px;
+    text-align: center;
+    margin-top:20px;
+}
+.belowPageTop{
+    display:flex;
+    width:100%;
+    height:auto;
+    flex-direction:row;
+}
+.sideBar{
+    display:flex;
+    flex-direction:column;
+    width:20vw;
+    margin-left:0px;
+    justify-self: left;
+    align-items: center;
+    height:100%;
+    border-right:2px solid black;
+    background-color: rgb(230, 230, 230);
+    min-width: 120px;
+    overflow:scroll;
+}
+.containerResults{
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    margin: 0%;
+    justify-self: right;
+    height:auto;
+    overflow:scroll;
+}
+.sideBarHead{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    font-size:25px;
+    text-align: center;
+    margin-top:30px;
+    font-family: 'Comfortaa';
+}
+.output{
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    align-items:center;
+    height:500px;
+    overflow:scroll;
+    margin-top:10px;
+    font-family: 'Comfortaa';
+}
+.outputDiv{
+    margin:5px;
+}
+.initialInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zaSubmit{
+    display: flex;
+    width: 80px;
+    height: 35px;
+    border-radius:10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.googleAuth{
+    display:flex;
+    width: 85px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background:rgb(230, 230, 230);
+    font-size: 15px;
+    text-align: center;
+}
